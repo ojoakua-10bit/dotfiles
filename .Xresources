@@ -1,0 +1,114 @@
+Xft.dpi:       96
+Xft.antialias: true
+Xft.rgba:      argb
+Xft.hinting:   true
+Xft.hintstyle: hintslight
+
+URxvt.depth:	32
+
+! -- Scheme 1 --
+!*.foreground:   #e4cae1
+!*.background:   [80]#120711
+!*.cursorColor:  #e4cae1
+
+!*.color0:       #bd7ab6
+!*.color8:       #eeafe7
+
+!*.color1:       #1d7676
+!*.color9:       #2aa9a9
+
+!*.color2:       #41854f
+!*.color10:      #60c575
+
+!*.color3:       #a69217
+!*.color11:      #d2b91d
+
+!*.color4:       #a688a2
+!*.color12:      #f1bbeb
+
+!*.color5:       #9a8b40
+!*.color13:      #c3ae47
+
+!*.color6:       #337c43
+!*.color14:      #4ab562
+
+!*.color7:       #eedeec
+!*.color15:      #f0afe9
+
+!urxvt*transparent: true
+!urxvt*shading: 30
+
+! -- Scheme 2 --
+!*.foreground:   #d5c4a1
+!*.background:   [80]#282828
+!*.cursorColor:  #d5c4a1
+
+!*.color0:       #282828
+!*.color8:       #665c54
+
+!*.color1:       #cd241d
+!*.color9:       #fb4934
+
+!*.color2:       #98971a
+!*.color10:      #b8bb26
+
+!*.color3:       #d79921
+!*.color11:      #fabd2f
+
+!*.color4:       #458588
+!*.color12:      #83a598
+
+!*.color5:       #b16286
+!*.color13:      #d3869b
+
+!*.color6:       #689d6a
+!*.color14:      #8ec07c
+
+!*.color7:       #a89984
+!*.color15:      #fbf1c7
+
+! -- Scheme 3 --
+! special
+*.foreground:   #d8dee9
+*.background:   [80]#263238
+*.cursorColor:  #d8dee9
+
+! black
+*.color0:       #1f282d
+*.color8:       #71838d
+
+! red
+*.color1:       #bf616a
+*.color9:       #c98188
+
+! green
+*.color2:       #a3be8c
+*.color10:      #b9cba9
+
+! yellow
+*.color3:       #ebcb8b
+*.color11:      #e2cfaa
+
+! blue
+*.color4:       #81a1c1
+*.color12:      #aec1d5
+
+! magenta
+*.color5:       #b48ead
+*.color13:      #d6bbd1
+
+! cyan
+*.color6:       #88c0d0
+*.color14:      #a8d1d0
+
+! white
+*.color7:       #e5e9f0
+*.color15:      #b7bcc5
+
+URxvt*letterSpace: -1
+URxvt.font: xft:Fira Mono for Powerline:size=9
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.scrollBar_floating: false
+
+URxvt.scrollstyle: rxvt
