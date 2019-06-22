@@ -54,10 +54,10 @@ conky.text = [[
 ${font Akubin:size=14}CPU ${alignr}$cpu%${font}
 ${font Akubin:size=12}${stippled_hr}${font}
 
-温度: ${alignr}${execi 10 sensors | grep 'Core 0' | awk {'print $3'}}
-プロセス: ${alignr}${running_processes}/${processes}
+Temp: ${alignr}${execi 10 sensors | grep 'Core 0' | awk {'print $3'}}
+Process: ${alignr}${running_processes}/${processes}
 
-トップ５のプロセス:
+Top 5 Processes:
 ${stippled_hr}
 ${top name 1} ${alignr}${top cpu 1}%
 ${top name 2} ${alignr}${top cpu 2}%

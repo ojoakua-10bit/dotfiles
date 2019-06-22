@@ -51,7 +51,7 @@ conky.config = {
 };
 
 conky.text = [[
-${font Akubin:size=14}${alignc}TO-DO リスト${alignr}${font Akubin:size=12}(${lines /home/anon/tmp})${font}
+${font Akubin:size=14}${alignc}TO-DO List${alignr}${font Akubin:size=12}(${lines /home/anon/todo})${font}
 ${stippled_hr}
 ${voffset 10}${execp /home/anon/.local/share/conky/themes/conky-rings/viewnotes.sh}
 

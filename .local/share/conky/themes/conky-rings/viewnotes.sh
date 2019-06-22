@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat ~/tmp | sed 's/^/ \${color #000000}>  \$color /g'
+cat $HOME/todo | sed 's/^/ \${color #000000}>  \$color /g'

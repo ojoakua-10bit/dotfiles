@@ -60,7 +60,7 @@ ${voffset 105}${goto 121}${font Akubin:size=24}${time %H:%M}${voffset -10}${font
 ${voffset -28}${goto 268}${hr 2}
 ${voffset -70}${goto 278}${cpugraph 50,285 6d6d6d 000000} #${voffset -18} ${alignr} ${execi 60 /home/anon/.local/share/conky/themes/conky-rings/gmailnotify.sh}
 ${voffset 16}${goto 285}${time %A, %d %b %Y}						
-${font Akubin:size=14}${voffset -120}${goto 300}バッテリー     ${battery BAT0}
+${font Akubin:size=14}${voffset -120}${goto 300}Battery     ${battery BAT0}
 ]]
 
 -- vim:ft=lua

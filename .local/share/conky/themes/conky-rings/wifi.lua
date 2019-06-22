@@ -57,13 +57,13 @@ conky.config = {
 conky.text = [[
 ${font Akubin:size=14}Wlan${alignr}${font Akubin:size=12}${font}${alignr}${addr wlp2s0}
 ${stippled_hr}
-${voffset 10}速度
+${voffset 10}Current Speed
 ${font Font Awesome 5 Free Solid}${font} ${upspeed wlp2s0} ${tab 56}${font Font Awesome 5 Free Solid}${font} ${downspeed wlp2s0}
 
-今日
+Today
 ${font Font Awesome 5 Free Solid}${font} ${execi 60 vnstat -i wlp2s0 --oneline | cut -d\; -f5} ${tab 56}${font Font Awesome 5 Free Solid}${font} ${execi 60 vnstat -i wlp2s0 --oneline | cut -d\; -f4}
 
-今月
+This Month
 ${font Font Awesome 5 Free Solid}${font} ${execi 60 vnstat -i wlp2s0 --oneline | cut -d\; -f10} ${tab 56}${font Font Awesome 5 Free Solid}${font} ${execi 60 vnstat -i wlp2s0 --oneline | cut -d\; -f9}
 
 # ${stippled_hr 1}
